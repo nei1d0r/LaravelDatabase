@@ -10,6 +10,5 @@
         <p>{{$project->description}}</p>
         <hr/>
     @endforeach
-    TEST
 </body>
 </html>
