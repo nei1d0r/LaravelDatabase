@@ -20,3 +20,5 @@ Route::get('/projects', 'ProjectsController@index')->middleware('auth');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/create', 'ProjectsController@create')->name('create');
